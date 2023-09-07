@@ -26,7 +26,7 @@ header h1 {
     /* color: #169bbd; */
     margin: 0;
     font-weight: bold;
-    font-size: 38px;
+    font-size: 28px;
 }
 
 header nav ul {
@@ -35,10 +35,18 @@ header nav ul {
     padding: 0;
 }
 
+header nav ul .active a {
+    color: #1900ef;
+}
+
 header nav ul li {
     display: inline;
     margin: 0 8px 0 0;
     padding: 0;
+}
+
+header nav ul li a {
+    color: black;
 }
 
 header #header-logo {
